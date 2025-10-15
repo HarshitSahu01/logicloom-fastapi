@@ -13,24 +13,7 @@ A machine learning-powered FastAPI application that predicts product hazard cate
 
 ## 📋 API Endpoints
 
-### 1. Greeting Endpoint
-```
-GET /api/greet?name={name}
-```
-Returns a greeting message.
-
-**Example:**
-```bash
-curl "http://localhost:8000/api/greet?name=John"
-```
-**Response:**
-```json
-{
-  "message": "Hello John"
-}
-```
-
-### 2. Product Category Prediction
+###  Product Category Prediction
 ```
 GET /api/predict?desc={description}
 ```
